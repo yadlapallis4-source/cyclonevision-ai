@@ -1,0 +1,66 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+data/raw/
+data/processed/
+data/training/
+data/validation/
+data/test/
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.hdf5
+*.nc
+*.tif
+*.tiff
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.ckpt
+models/
+checkpoints/
+
+# Generated outputs
+outputs/
+results/
+logs/
+reports/generated/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
